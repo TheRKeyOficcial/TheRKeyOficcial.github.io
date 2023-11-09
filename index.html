@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Store</title>
+    <!--ICONO DE BUSQUEDA-->
+    <link rel="shortcut icon" href="./img/home_icon.png" type="image/x-icon" />
+    <!--Compatibilidad con diferentes navegadores-->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!--Estilos-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--Libreria para la animacion del slayder-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!--Libreria para poder poner iconos-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Creacion de nav-->
+    <header class="hero" id="hero">
+      <nav class="nav container">
+        <div class="logotype">PisandoArte.com</div>
+        <ul class="nav__link">
+          <li class="nav__items">
+            <i class="fa-solid fa-house"></i>
+            <a href="#hero" class="nav__links">Inicio</a>
+          </li>
+          <li class="nav__items">
+            <i class="fa-solid fa-book"></i>
+            <a href="#shoesc" class="nav__links">Catálogo</a>
+          </li>
+          <li class="nav__items">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <a href="#shoesd" class="nav__links">Diseños</a>
+          </li>
+          <li class="nav__items">
+            <i class="fa-solid fa-bookmark"></i>
+            <a href="#shoesb" class="nav__links">Destacados</a>
+          </li>
+          <li class="nav__items">
+            <i class="fa-solid fa-store"></i>
+            <a href="#map" class="nav__links">Tienda</a>
+          </li>
+          <li class="nav__items">
+            <i class="fa-solid fa-id-card-clip"></i>
+            <a href="#footer" class="nav__links">Sobre Nosotros</a>
+          </li>
+        </ul>
+
+        <div class="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--Comienzo de main-->
+    <main>
+      <!--Creacion de carrusel-->
+      <section class="carrusel__shoes contain">
+        <div class="main__carrusel">
+          <div class="swiper__carrusel Swiper__carrusel">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/img/custom__shoe__001.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/custom__shoe__002.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/custom__shoe__003.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/custom__shoe__004.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="carrusel__main__button">
+          <button class="carrusel__button"><span>¡Hazlo tuyo! Personaliza tu estilo</span></button>
+        </div>
+      </section>
+
+      <!--Categoria de Catalogo-->
+      <section class="shoesc catalog" id="shoesc">
+        <h2 class="title__catalog">Catálogo</h2>
+        <div class="main__catalog">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/shoe/catalog/dbz_001.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/shoe/catalog/shoe_gt_001.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/shoe/catalog/shoe_kam_001.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/shoe/catalog/shoe_naru_001.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog__text">
+            <p class="catalog__paragraph">
+              Descubre un mundo de posibilidades en nuestro catálogo de zapatos
+              personalizados. Cada par es una expresión única de tu estilo y
+              personalidad. ¡Explora y crea tu diseño perfecto hoy mismo!
+            </p>
+            <button class="catalog__button"><span>Descubre Más</span></button>
+          </div>
+        </div>
+      </section>
+
+      <!--Categoria de Diseños-->
+      <section class="shoesd disign" id="shoesd">
+        <h2 class="title__disign">Diseños</h2>
+        <div class="main__disign">
+          <div class="dising__text">
+            <p class="dising__paragraph">
+              ¡Explora nuestra exclusiva colección de diseños de zapatos
+              personalizados! Cada par cuenta una historia única y refleja tu
+              estilo individual. Adéntrate en un mundo de posibilidades y
+              encuentra el calzado que se adapte perfectamente a ti. Tu estilo,
+              tus zapatos. ¡Investiga más y crea tu propio camino con nosotros!
+            </p>
+            <button class="disign__button"><span>Explora Ahora</span></button>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/shoe/desing/shoe_kam_002.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/shoe/desing/shoe_metallica_001.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/shoe/desing/shoe_pink_001.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/shoe/desing/shoe_spider_001.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Categoria de mas vendidos-->
+      <section class="shoesb bestseller" id="shoesb">
+        <h2 class="title__bestseller">Más Vendidos</h2>
+        <div class="main__bestseller">
+          <div class="bestseller__content">
+            <div class="bestseller__wrapper">
+              <div class="bestseller__slides img">
+                <img src="./img/shoe/bestseller/db_001.png" alt="" />
+                <button class="bestseller__button">
+                  Comprar
+                </button>
+              </div>
+              <div class="bestseller__slides img">
+                <img src="./img/shoe/bestseller/pink_002.png" alt="" />
+                <button class="bestseller__button">
+                  Comprar
+                </button>
+              </div>
+              <div class="bestseller__slides img">
+                <img src="./img/shoe/bestseller/rick_001.png" alt="" />
+                <button class="bestseller__button">
+                  Comprar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Implemetacioin de mapa de google maps-->
+      <section class="map" id="map">
+        <div class="map__title">
+          <h2>Tienda Física</h2>
+        </div>
+        <div class="main__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44990.7942185025!2d-74.03199806355326!3d4.654235520694847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af5539e0589%3A0x58f8536449f01c72!2sCentro%20Comercial%20Andino!5e0!3m2!1ses!2sco!4v1699471080606!5m2!1ses!2sco"
+            width="50%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map__container"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <!--Creacion de footer-->
+    <footer class="hero__footer" id="footer">
+      <div class="main__footer">
+        <div class="group__1">
+          <div class="box">
+            <figure>
+              <a href="#"><img src="./img/home_icon.png" alt="" /></a>
+            </figure>
+          </div>
+          <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>
+              ¡Bienvenidos a nuestro Mundo de Diseño de Zapatos Personalizados!
+              En esta página web, podrán personalizar completamente su par de
+              zapatos ideal, desde materiales hasta detalles, garantizando
+              calidad y comodidad. Explore inspiración en nuestra galería y
+              cuente con nuestro equipo de atención al cliente para cualquier
+              pregunta. ¡Bienvenidos a la experiencia de diseño de calzado
+              única!
+            </p>
+          </div>
+          <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+              <a href="#">
+                <i class="fa-brands fa-square-facebook fa-xl fa-beat"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-square-instagram fa-xl fa-beat"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-square-twitter fa-xl fa-beat"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="group__2">
+          <small
+            >&copy; 2023 <b>PisandoArte</b> - Todos los Derechos
+            Reservados.</small
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!--Libreria de swiper en javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Javascript de la pagina web-->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
